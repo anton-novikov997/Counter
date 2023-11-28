@@ -1,0 +1,76 @@
+
+.container{
+    display: flex;
+    justify-content:center;
+
+}
+.containerStyle{
+    width: 500px;
+    height:200px;
+    /*// backgroundColor: "lightgray",*/
+    padding: 40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border: 1px solid rgb(29, 24, 171);
+    border-radius: 20px;
+    margin: 30px;
+
+
+}
+.childStyle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:75px;
+    margin: 0 auto;
+    /*// backgroundColor: "lightblue",*/
+    padding: 20px;
+    border: 1px solid rgb(29, 24, 171);
+    border-radius: 20px;
+    font-size: 18px;
+}
+.childStyle2{
+    display: flex;
+    justify-content:space-around;
+    width: 410px;
+    height:75px;
+    margin: 10px auto;
+/*// backgroundColor: "lightblue",*/
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(29, 24, 171);
+    border-radius: 20px;
+
+
+}
+.inputGroup{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border: none;
+
+}
+.red{
+    color: red;
+}
+.input{
+    font-size: 12px;
+    text-align: center;/* Устанавливаем размер шрифта */
+    background-color: transparent;
+    border: 1px solid rgb(29, 24, 171);
+
+
+}
+.inputCount{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+
+
+}
